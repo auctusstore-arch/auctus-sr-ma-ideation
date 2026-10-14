@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Muhammad Yusuf"
+  },
+  "description": "Ideasi SR, MA, dan NMA Auctus dengan deteksi fase, analisis CSV/RIS/NBIB, mapping literatur, scoring, FINER, dan PICO melalui PubMed MCP.",
+  "interface": {
+    "brandColor": "#005447",
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./assets/auctus-logo-v0.1.1.jpg",
+    "defaultPrompt": [
+      "Bantu aku mencari ide SR/MA baru di bidang yang aku pilih.",
+      "Analisis CSV, RIS, atau NBIB yang aku unggah, identifikasi faseku, lalu rekomendasikan ide SR/MA beserta skor dan bukti pendukung.",
+      "Validasi novelty dan feasibility topik SR/MA pilihanku, lakukan FINER check, lalu susun PICO operasional."
+    ],
+    "developerName": "Muhammad Yusuf",
+    "displayName": "Auctus SR-MA Ideation",
+    "logo": "./assets/auctus-logo-v0.1.1.jpg",
+    "longDescription": "Temukan dan evaluasi ide systematic review, meta-analisis, dan network meta-analisis dengan alur sr-ideation Auctus. Unggah CSV, RIS, atau NBIB untuk deteksi fase, deduplikasi, mapping evidence, serta rekomendasi ide berskor dan bersumber. Lanjutkan ke validasi FINER dan PICO operasional menggunakan PubMed MCP.",
+    "shortDescription": "Ide SR/MA dari literatur",
+    "logoDark": "./assets/auctus-logo-v0.1.1.jpg",
+    "composerIconDark": "./assets/auctus-logo-v0.1.1.jpg"
+  },
+  "keywords": [
+    "Auctus",
+    "systematic review",
+    "meta-analysis",
+    "PICO",
+    "PubMed",
+    "CSV",
+    "RIS",
+    "NBIB"
+  ],
+  "mcpServers": "./.mcp.json",
+  "name": "auctus-sr-ma-ideation",
+  "skills": "./skills",
+  "version": "0.1.1"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "auctus",
+  "interface": { "displayName": "Auctus Plugins" },
+  "plugins": [
+    {
+      "name": "auctus-sr-ma-ideation",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

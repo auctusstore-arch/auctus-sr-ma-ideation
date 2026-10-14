@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "pubmed-auctus": {
+      "type": "streamable-http",
+      "url": "https://pubmed.caseyjhand.com/mcp",
+      "headers": {}
+    }
+  }
+}
