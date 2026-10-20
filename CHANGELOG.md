@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Blok verifikasi per ide (BUKTI FEASIBILITY dan SR TERAKHIR berupa PMID) di
+  kontrak output, supaya user dapat mengecek klaim feasibility dan novelty di
+  Auctus Idea Board.
+
 ## 0.1.1
 
 - Logo dan ikon chat Auctus untuk tema terang serta gelap, dengan asset path

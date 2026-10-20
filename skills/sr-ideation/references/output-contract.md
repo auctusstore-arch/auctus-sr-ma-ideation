@@ -16,6 +16,26 @@ Seluruh candidate ideas harus traceable ke evidence IDs. `UP00001` dan source
 file/record cukup untuk records tanpa PMID/DOI. Jangan memalsukan citation.
 Berikan link PubMed/DOI hanya dari identifier yang valid dan tersedia.
 
+## Blok verifikasi untuk Auctus Idea Board
+
+User Auctus memeriksa klaim feasibility dan novelty di Idea Board dengan
+menempel PMID dari chat. Di bawah setiap ide yang direkomendasikan, tulis dua
+baris ini dengan format persis:
+
+```text
+BUKTI FEASIBILITY (PMID): <PMID studi original pendukung, dipisah koma>
+SR TERAKHIR (PMID, tahun): <PMID SR/MA terbaru tentang topik ini (tahun)> | belum ada
+```
+
+- Hanya cantumkan PMID yang benar-benar didapat dari PubMed atau file unggahan
+  dan sudah dicek metadata-nya. Jangan menebak atau menyusun PMID.
+- BUKTI FEASIBILITY berisi studi original independen yang menjadi dasar skor
+  Feasibility, bukan review.
+- SR TERAKHIR adalah SR/MA terbaru yang menjadi dasar skor Novelty. Tulis
+  `belum ada` hanya jika pencarian SR sudah dilakukan dan tidak menemukan apa pun.
+- Jika PMID belum bisa diverifikasi (misalnya PubMed tidak terhubung), tulis
+  `belum terverifikasi` dan jelaskan alasannya.
+
 Jika runtime tersedia, simpan:
 
 - `intake/intake.json`: canonical records, origins, warnings, counts, phase
